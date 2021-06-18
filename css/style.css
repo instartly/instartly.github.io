@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+/*背景颜色*/
+			.bg{background:url("mainimg.jpg")}
+		/*导航栏*/
+			ul {list-style-type:none;
+				margin:-5px;
+  				padding: 3px;
+  				overflow: hidden;
+				background:rgba(0,0,0,0.43);
+				
+			}
+			/*浮动方式*/
+			.left{float:left}
+			.right{float:right}
+			li {float: left;}
+			/*导航栏方块*/
+			li a {display:block;
+				  font-family:"思源黑体 CN Heavy";
+				  font-size:18px;
+  				  color:#A2A2A2;
+  				  padding: 8px 20px;
+				  text-align: center;
+  				  text-decoration: none;
+			}
+			/*当前停留导航栏字体颜色*/
+			li a:hover:not(.active) {color:#F6F6F6}
+						   .active {color:#F6F6F6}
+			/*首页大图*/
+			.img{
+				margin-top:0px;
+				margin-left:171px
+			}
+			#FloatDiv{
+				position:fixed; 
+				width:1160px; 
+				height:170px; 
+				margin-right:171px;
+				visibility:visible; 
+				right: 10px;
+				bottom: 10px; 
+				border: 0px; 
+				background:rgba(255,255,255,0.1)}
+			.Title{
+				margin-top:430px;
+				margin-left:350px;
+				width:800px;
+			}
+			.MainTitle{
+				color:white;
+				font-family:"思源黑体 CN Heavy";
+				font-size:50px;
+				text-align:center;
+			}
+			.introduction{
+				color:white;
+				font-family:"思源黑体 CN Heavy";
+				text-align:center;
+				font-size:22px;
+			}
+			.bookmark{
+				color:white;
+				font-size:26px;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:735px
+			}
+		#gallery{
+            width: 1000px;
+            position: relative;
+            margin: 20px 500px;
+            min-height: 400px;
+            padding: 20px;
+        }
+ 
+        #gallery ul
+        {
+            width: 1000px;
+            margin-left:65px;
+			margin-top:570px;
+			background:#5d4646
+        }
+ 
+        #gallery ul li
+        {
+            
+            margin: 20px 8px 0 0;
+        }
+ 
+        #gallery ul li span
+        {
+            display: block;
+            position: relative;
+            width: 60px;
+            height: 40px;
+            border: 1px solid #fff;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+ 
+        #gallery  ul li span img
+        {
+            position: relative;
+            top: -200px;
+            left: -100px;
+            filter: alpha(opacity=30);
+            opacity: 0.3;
+        }
+ 
+        #gallery ul li span.touch img, #gallery ul li:hover span img
+        {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+ 
+        #gallery ul li:hover div
+        {
+            display: block;
+        }
+ 
+        #gallery ul li div  img
+        {
+            width: 700px;
+            height: 500px;
+        }
+ 
+        #gallery ul li div
+        {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: -85px;
+            border: 1px solid #fff;
+        }
+		.galleryimg{display: block;}
+        .clearfix
+        {
+            clear: both;
+        }
+		.copyright{
+			color:white;
+			font-family:"Adobe 宋体 Std L";
+			font-size:12px;
+			margin-left:620px
+		}
