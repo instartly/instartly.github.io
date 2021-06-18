@@ -1,48 +1,83 @@
 <!doctype html>
-/*中文*/
 <html lang="zh">
-<head>
-<meta charset="utf-8">
-<title>表单</title>
-	<link rel="stylesheet" href="../201918340317-liying-1101/url.css"/>
-</head>
-<body>
-	<!--顶部导航栏-->
-	<div class="top">
+	<!--HEAD-->
+	<head>
+		<meta charset="utf-8"><!--字符串集-->
+		<title>网页编码</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body class="bg">
+	<!--BODY-->
 		<ul>
-			<li>
-				<a href=""  style="cursor: pointer">绿野设计</a>
-			</li>
+			<div class="left">
+				<li><a class="active"  href="#homepage">首页</a></li>
+  				<li><a href="#secondpage">卫生巾革命</a></li>
+  				<li><a href="#thirdpage">科普知识</a></li>
+  				<li><a href="#lastpage">援助计划</a></li>
+				<li><a href="#lastpage">调查问卷</a></li>
+			</div>
+			<div class="right">
+				<li><a href="#secondpage">登录</a></li>
+				<li><a href="#secondpage">联系我们</a></li>
+			</div>
 		</ul>
-	</div>
-	<div id="iframe-wrap">
-		<div>
-			<form method="post" action="../../Documents/show-data.php">
-				<!--表单-->
-				<fieldset>
-						<h1>Green field design</h1>
-						<div class="container">
-							<!--文本框-->
-							<p>
-								<label for="用户名"><span>用户名</span></label>
-								<input type="text" id="用户名" name="用户名" class="field-large" required="require" aria-requiye="ture"/>
-							</p>
-							<!--密码框-->
-						    <p>
-								<label for="密码"><span>密码</span></label>							
-							    <input type="password" id="密码" name="密码" class="field-large" required="require" aria-requiye="ture"/>
-							</p>
-							<p>
-								<input type="submit" class="login" value="登录"/>
-							</p>
-							<div class="f-bottom">QQ登录：<a href=""><img src="../201918340317-liying-1101/img1.jpg" alt="QQ" width="5%"></a>&nbsp;&nbsp;&nbsp;&nbsp;微信登录：<a href=""><img src="../201918340317-liying-1101/img2.jpg" alt="QQ" width="6%"></a></div>
-							<p><a href>忘记密码？</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href>注册账号 </a></p>
-						</div>
-				</fieldset>
-			</form>
-			<!--底部注释-->
-			<div class="bottom">© 2021登录页面 | 设计版式：liying | 联系方式:1709725726@qq.com</div>
+			<!--<div class="img">
+				<img src="3fea69cd54034874be8282cf7454e068.jpeg" alt="黑人女孩图" width="1160">
+			</div>-->
+			<!--<div id="FloatDiv">
+				<h2 class="Title">“月经贫困”</h2>
+				<p class="introduction">——主要指因观念或经济因素导致女性在生理期无法获得足够安全、健康的卫生用品从而导致的继续贫困，是近期社会上比较关注的话题。</p>
+			</div>-->
+		<div class="Title">
+			<h1 class="MainTitle">“月经贫困”</h1>
+			<p class="introduction">——主要指因观念或经济因素导致女性在生理期无法获得足够安全、健康的卫生用品从而导致的继续贫困，是近期社会上比较关注的话题。</p>
 		</div>
-	</div>
-</body>
+			<a class="bookmark" href="#A" target="_self">
+				<img src="down.png" alt="箭头" width="35">
+		</a>
+		<div id="gallery">
+    		<ul>
+ 				<li>
+            		<span class="touch"><img src="img1.jpg" alt="卫生巾漫画"></span>
+ 					<div style="display: block">
+                		<img src="img1.jpg" alt="卫生巾漫画">
+           	 		</div>
+        		</li>
+        		<li>
+            		<span><img src="img2.jpg" alt="印度女孩"></span>
+            		<div>
+                		<img src="img2.jpg" alt="印度女孩">
+            		</div>
+       			 </li>
+        		<li>
+           	 		<span><img src="img3.jpg" alt="卫生棉布"></span>
+ 
+            		<div>
+                	<img src="img3.jpg" alt="卫生棉布">
+            		</div>
+        		</li>
+ 
+        		<li>
+            		<span><img src="img4.jpg" alt="匿名分享"></span>
+ 
+            		<div>
+                	<img src="img4.jpg" alt="匿名分享">
+            		</div>
+        		</li>
+        		<li>
+            		<span><img src="img5.jpg" alt="互助袋"></span>
+            		<div>
+                	<img src="img5.jpg" alt="互助袋">
+            		</div>
+        		</li>
+    		</ul>
+    	<div class="clearfix"></div>
+		</div>
+	</body>
+	<footer>
+		<div class="footer">
+			<p class="copyright">Copyright © 2021 JiangCaiyi All rights reserved.</p>
+		</div>
+		<a id="A"></a>
+	</footer>
 </html>
